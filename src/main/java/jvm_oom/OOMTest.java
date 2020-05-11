@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  *1、 为使内存溢出，尽快出现，可以通过-Xmx20m 设置分配给该Java程序的最大内存
- * 注意至少加上-XX:+HeapDumpOnOutOfMemoryError
+ * 注意至少加上-X+HeapDumpOnOutOfMemoryError
  * 用Java自带的VisualVM进行检测内存溢出的问题
  * 2、在centos中系统，某个JAVA线程被莫名其妙地杀死了，
  * 并且没有dump文件，一开始也不一定定位出是OOM，所以只有查看操作系统的日志
